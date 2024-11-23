@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6878784-b838-4a31-b8ad-6c3fdad131db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softuni/lab/Instock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softuni/lab/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/softuni/lab/ProductStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softuni/lab/InstockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/softuni/lab/ProductTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/softuni/exercise/chainblock/ChainblockImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/softuni/exercise/chainblock/TransactionImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +37,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ChainblockImplTest.executor": "Run",
+    "JUnit.ChainblockImplTest.testAddAddsTransaction.executor": "Run",
+    "JUnit.ChainblockImplTest.testAddDoesNotAddTransactionWithExistingId.executor": "Run",
+    "JUnit.ChainblockImplTest.testChangeTransactionStatusChangesStatus.executor": "Run",
+    "JUnit.ChainblockImplTest.testChangeTransactionStatusThrowsWhenIdNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testContainsTransaction.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetAllOrderedByAmountDescendingThenByIdReturnsInCorrectOrder.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetAllReceiversWithTransactionStatusReturnsAllSendersWithInputStatusOrderedByAmount.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetAllReceiversWithTransactionStatusThrowsWhenTransactionsWithInputStatusNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetAllSendersWithTransactionStatusReturnsAllSendersWithInputStatusOrderedByAmount.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetAllSendersWithTransactionStatusThrowsWhenTransactionsWithInputStatusNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByIdReturnsCorrectTransaction.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByIdThrowsWhenTransactionIdNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByReceiverAndAmountRangeReturnsCorrectTransactionsInOrder.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByReceiverOrderedByAmountDescendingReturnsTransactionsInCorrectOrder.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByReceiverOrderedByAmountDescendingThrowsWhenTransactionWithInputSenderIsNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetBySenderAndMinimumAmountDescendingReturnsTransactionsInCorrectOrder.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetBySenderAndMinimumAmountDescendingThrowsWhenTransactionWithMinimumAmountNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetBySenderAndMinimumAmountDescendingThrowsWhenTransactionWithSenderNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetBySenderOrderedByAmountDescendingReturnsTransactionsInCorrectOrder.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetBySenderOrderedByAmountDescendingThrowsWhenTransactionWithInputSenderIsNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByTransactionStatusAndMaximumAmountReturnsTransactionsInCorrectOrder.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByTransactionStatusReturnsTransactionsWithInputStatusOrderedByAmount.executor": "Run",
+    "JUnit.ChainblockImplTest.testGetByTransactionStatusThrowsWhenTransactionsWithStatusNotContained.executor": "Run",
+    "JUnit.ChainblockImplTest.testRemoveTransactionByIdRemovesTransaction.executor": "Run",
+    "JUnit.ChainblockImplTest.testRemoveTransactionByIdThrowsWhenIdNotContained.executor": "Run",
     "JUnit.InstockTest.addShouldAddProduct.executor": "Run",
     "JUnit.InstockTest.addShouldIncreaseProductCount.executor": "Run",
     "JUnit.InstockTest.executor": "Coverage",
@@ -72,9 +92,16 @@
     "JUnit.ProductTest.testCompareTo.executor": "Run",
     "JUnit.ProductTest.testConstructorCreates.executor": "Run",
     "JUnit.ProductTest.testEqualsReturnsTrueForProductsWithSameFieldValues.executor": "Run",
+    "JUnit.TransactionImplTest.executor": "Run",
+    "JUnit.TransactionImplTest.testCompareTo.executor": "Run",
+    "JUnit.TransactionImplTest.testConstructorCreates.executor": "Coverage",
+    "JUnit.TransactionImplTest.testHashCode.executor": "Run",
+    "JUnit.TransactionImplTest.testTransactionEquals.executor": "Run",
+    "JUnit.com.softuni.exercise.chainblock in softuni-test-driven-development.executor": "Run",
     "JUnit.com.softuni.lab in softuni-test-driven-development.executor": "Coverage",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/dimit/softuni-test-driven-development",
@@ -90,80 +117,78 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.com.softuni.lab in softuni-test-driven-development">
-    <configuration name="InstockTest.testGetProductsShouldReturnAllProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.com.softuni.exercise in softuni-test-driven-development">
+    <configuration name="ChainblockImplTest.testGetAllInAmountRangeReturnsCorrectTransactionsInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softuni-test-driven-development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softuni.lab.*" />
+          <option name="PATTERN" value="com.softuni.exercise.chainblock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softuni.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.softuni.lab.InstockTest" />
-      <option name="METHOD_NAME" value="testGetProductsShouldReturnAllProducts" />
+      <option name="PACKAGE_NAME" value="com.softuni.exercise.chainblock" />
+      <option name="MAIN_CLASS_NAME" value="com.softuni.exercise.chainblock.ChainblockImplTest" />
+      <option name="METHOD_NAME" value="testGetAllInAmountRangeReturnsCorrectTransactionsInOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstockTest.testIteratorReturnsProductIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChainblockImplTest.testGetByReceiverAndAmountRangeThrowsWhenTransactionWithRangeAmountNotContained" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softuni-test-driven-development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softuni.lab.*" />
+          <option name="PATTERN" value="com.softuni.exercise.chainblock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softuni.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.softuni.lab.InstockTest" />
-      <option name="METHOD_NAME" value="testIteratorReturnsProductIterator" />
+      <option name="PACKAGE_NAME" value="com.softuni.exercise.chainblock" />
+      <option name="MAIN_CLASS_NAME" value="com.softuni.exercise.chainblock.ChainblockImplTest" />
+      <option name="METHOD_NAME" value="testGetByReceiverAndAmountRangeThrowsWhenTransactionWithRangeAmountNotContained" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstockTest.testIteratorShouldThrowIfNextIsCalledOnListIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ChainblockImplTest.testIteratorReturnsChainblockIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softuni-test-driven-development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softuni.lab.*" />
+          <option name="PATTERN" value="com.softuni.exercise.chainblock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softuni.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.softuni.lab.InstockTest" />
-      <option name="METHOD_NAME" value="testIteratorShouldThrowIfNextIsCalledOnListIndex" />
+      <option name="PACKAGE_NAME" value="com.softuni.exercise.chainblock" />
+      <option name="MAIN_CLASS_NAME" value="com.softuni.exercise.chainblock.ChainblockImplTest" />
+      <option name="METHOD_NAME" value="testIteratorReturnsChainblockIterator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTest.testEqualsReturnsTrueForProductsWithSameFieldValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.softuni.exercise in softuni-test-driven-development" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softuni-test-driven-development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softuni.lab.*" />
+          <option name="PATTERN" value="com.softuni.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softuni.lab" />
-      <option name="MAIN_CLASS_NAME" value="com.softuni.lab.ProductTest" />
-      <option name="METHOD_NAME" value="testEqualsReturnsTrueForProductsWithSameFieldValues" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.softuni.exercise" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.softuni.lab in softuni-test-driven-development" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="com.softuni.exercise.chainblock in softuni-test-driven-development" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softuni-test-driven-development" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.softuni.lab.*" />
+          <option name="PATTERN" value="com.softuni.exercise.chainblock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.softuni.lab" />
+      <option name="PACKAGE_NAME" value="com.softuni.exercise.chainblock" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.softuni.lab in softuni-test-driven-development" />
-        <item itemvalue="JUnit.ProductTest.testEqualsReturnsTrueForProductsWithSameFieldValues" />
-        <item itemvalue="JUnit.InstockTest.testIteratorShouldThrowIfNextIsCalledOnListIndex" />
-        <item itemvalue="JUnit.InstockTest.testIteratorReturnsProductIterator" />
-        <item itemvalue="JUnit.InstockTest.testGetProductsShouldReturnAllProducts" />
+        <item itemvalue="JUnit.com.softuni.exercise in softuni-test-driven-development" />
+        <item itemvalue="JUnit.com.softuni.exercise.chainblock in softuni-test-driven-development" />
+        <item itemvalue="JUnit.ChainblockImplTest.testIteratorReturnsChainblockIterator" />
+        <item itemvalue="JUnit.ChainblockImplTest.testGetAllInAmountRangeReturnsCorrectTransactionsInOrder" />
+        <item itemvalue="JUnit.ChainblockImplTest.testGetByReceiverAndAmountRangeThrowsWhenTransactionWithRangeAmountNotContained" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +216,8 @@
       <workItem from="1732270874548" duration="56000" />
       <workItem from="1732270933072" duration="79000" />
       <workItem from="1732271015200" duration="14000" />
-      <workItem from="1732271031249" duration="9194000" />
+      <workItem from="1732271031249" duration="9262000" />
+      <workItem from="1732351536614" duration="15280000" />
     </task>
     <servers />
   </component>
@@ -199,14 +225,23 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/softuni_test_driven_development$TransactionImplTest_testConstructorCreates.ic" NAME="TransactionImplTest.testConstructorCreates Coverage Results" MODIFIED="1732352169704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.softuni.exercise.chainblock.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/softuni_test_driven_development$ProductTest.ic" NAME="ProductTest Coverage Results" MODIFIED="1732271273694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.softuni.lab.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/softuni_test_driven_development$InstockTest.ic" NAME="InstockTest Coverage Results" MODIFIED="1732277425970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.softuni.lab.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/softuni_test_driven_development$com_softuni_lab_in_softuni_test_driven_development.ic" NAME="com.softuni.lab in softuni-test-driven-development Coverage Results" MODIFIED="1732279980469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/softuni_test_driven_development$com_softuni_lab_in_softuni_test_driven_development.ic" NAME="com.softuni.lab in softuni-test-driven-development Coverage Results" MODIFIED="1732280236115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.softuni.lab.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/softuni_test_driven_development$TransactionImplTest.ic" NAME="TransactionImplTest Coverage Results" MODIFIED="1732352475751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.softuni.exercise.chainblock.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/softuni_test_driven_development$com_softuni_exercise_chainblock_in_softuni_test_driven_development.ic" NAME="com.softuni.exercise.chainblock in softuni-test-driven-development Coverage Results" MODIFIED="1732360089162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.softuni.exercise.chainblock.*</FILTER>
     </SUITE>
   </component>
 </project>
